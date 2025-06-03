@@ -1,0 +1,326 @@
+2025-06-03 07:41:42,658 INFO data_prep: Loading data from UploadedFile(file_id='ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+upload_url: "/_stcore/upload_file/88fa4bbe-b43a-49a8-b90a-e41f0ae6f1a6/ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+delete_url: "/_stcore/upload_file/88fa4bbe-b43a-49a8-b90a-e41f0ae6f1a6/ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+)
+2025-06-03 07:41:42,658 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:41:42,658 INFO data_prep: Starting data preprocessing
+2025-06-03 07:41:42,658 INFO data_prep: Missing values filled
+2025-06-03 07:41:45,040 INFO data_prep: Loading data from UploadedFile(file_id='ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+upload_url: "/_stcore/upload_file/88fa4bbe-b43a-49a8-b90a-e41f0ae6f1a6/ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+delete_url: "/_stcore/upload_file/88fa4bbe-b43a-49a8-b90a-e41f0ae6f1a6/ee4cb211-4b8c-4e23-b14f-f391ab3d2f9f"
+)
+2025-06-03 07:41:45,045 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:41:45,045 INFO data_prep: Starting data preprocessing
+2025-06-03 07:41:45,047 INFO data_prep: Missing values filled
+2025-06-03 07:45:49,420 INFO data_prep: Loading data from UploadedFile(file_id='16b40750-c5c7-4a67-ae59-21c4c8af376d', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "16b40750-c5c7-4a67-ae59-21c4c8af376d"
+upload_url: "/_stcore/upload_file/ea2391ea-6cdd-44b4-808e-ce86e2c8bfd0/16b40750-c5c7-4a67-ae59-21c4c8af376d"
+delete_url: "/_stcore/upload_file/ea2391ea-6cdd-44b4-808e-ce86e2c8bfd0/16b40750-c5c7-4a67-ae59-21c4c8af376d"
+)
+2025-06-03 07:45:49,420 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:45:49,420 INFO data_prep: Starting data preprocessing
+2025-06-03 07:45:49,420 INFO data_prep: Missing values filled
+2025-06-03 07:45:51,571 INFO data_prep: Loading data from UploadedFile(file_id='16b40750-c5c7-4a67-ae59-21c4c8af376d', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "16b40750-c5c7-4a67-ae59-21c4c8af376d"
+upload_url: "/_stcore/upload_file/ea2391ea-6cdd-44b4-808e-ce86e2c8bfd0/16b40750-c5c7-4a67-ae59-21c4c8af376d"
+delete_url: "/_stcore/upload_file/ea2391ea-6cdd-44b4-808e-ce86e2c8bfd0/16b40750-c5c7-4a67-ae59-21c4c8af376d"
+)
+2025-06-03 07:45:51,576 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:45:51,576 INFO data_prep: Starting data preprocessing
+2025-06-03 07:45:51,577 INFO data_prep: Missing values filled
+2025-06-03 07:48:45,177 INFO data_prep: Starting data preprocessing
+2025-06-03 07:48:45,177 INFO data_prep: Missing values filled with forward fill
+2025-06-03 07:48:45,177 INFO data_prep: Converted column feature2 to numeric
+2025-06-03 07:48:45,177 INFO data_prep: Dropped 0 rows with NaN values
+2025-06-03 07:49:42,818 INFO data_prep: Loading data from UploadedFile(file_id='faaf1299-bdd4-44ac-8667-a84da3f49fd2', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+upload_url: "/_stcore/upload_file/10a62654-5540-493b-9f63-588fe6b5cb28/faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+delete_url: "/_stcore/upload_file/10a62654-5540-493b-9f63-588fe6b5cb28/faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+)
+2025-06-03 07:49:42,828 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:49:42,828 INFO data_prep: Starting data preprocessing
+2025-06-03 07:49:42,828 INFO data_prep: Missing values filled with forward fill
+2025-06-03 07:49:42,828 INFO data_prep: Converted column Price to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Converted column Close to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Converted column High to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Converted column Low to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Converted column Open to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Converted column Volume to numeric
+2025-06-03 07:49:42,828 INFO data_prep: Dropped 1511 rows with NaN values
+2025-06-03 07:49:57,351 INFO data_prep: Loading data from UploadedFile(file_id='faaf1299-bdd4-44ac-8667-a84da3f49fd2', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+upload_url: "/_stcore/upload_file/10a62654-5540-493b-9f63-588fe6b5cb28/faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+delete_url: "/_stcore/upload_file/10a62654-5540-493b-9f63-588fe6b5cb28/faaf1299-bdd4-44ac-8667-a84da3f49fd2"
+)
+2025-06-03 07:49:57,354 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:49:57,354 INFO data_prep: Starting data preprocessing
+2025-06-03 07:49:57,354 INFO data_prep: Missing values filled with forward fill
+2025-06-03 07:49:57,357 INFO data_prep: Converted column Price to numeric
+2025-06-03 07:49:57,357 INFO data_prep: Converted column Close to numeric
+2025-06-03 07:49:57,360 INFO data_prep: Converted column High to numeric
+2025-06-03 07:49:57,360 INFO data_prep: Converted column Low to numeric
+2025-06-03 07:49:57,360 INFO data_prep: Converted column Open to numeric
+2025-06-03 07:49:57,360 INFO data_prep: Converted column Volume to numeric
+2025-06-03 07:49:57,363 INFO data_prep: Dropped 1511 rows with NaN values
+2025-06-03 07:51:39,614 INFO data_prep: Starting data preprocessing
+2025-06-03 07:51:39,614 INFO data_prep: Missing values filled with forward fill
+2025-06-03 07:51:39,614 INFO data_prep: Converted column feature2 to numeric
+2025-06-03 07:51:39,616 INFO data_prep: Dropped 0 rows with NaN values
+2025-06-03 07:55:19,077 INFO data_prep: Loading data from <_io.StringIO object at 0x000001BEF6809360>
+2025-06-03 07:55:19,078 INFO data_prep: Data loaded successfully. Shape: (5, 6)
+2025-06-03 07:55:19,086 INFO data_prep: Starting data preprocessing. Initial shape: (5, 6)
+2025-06-03 07:55:19,086 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('float64'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'Volume': dtype('int64')}
+2025-06-03 07:55:19,086 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 0, 'High': 0, 'Low': 0, 'Close': 0, 'Volume': 0}
+2025-06-03 07:55:19,087 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:55:19,087 INFO data_prep: Converted column Date to numeric: 0/5 values converted
+2025-06-03 07:55:19,087 INFO data_prep: Conversion summary: {'Date': '0/5 values converted'}
+2025-06-03 07:55:19,088 INFO data_prep: Rows with NaN values: 5 out of 5
+2025-06-03 07:55:19,088 WARNING data_prep: Would drop all rows due to NaN values - keeping data as is
+2025-06-03 07:55:19,088 INFO data_prep: Final preprocessing shape: (5, 6)
+2025-06-03 07:55:19,095 INFO data_prep: Loading data from <_io.StringIO object at 0x000001BEF6809E10>
+2025-06-03 07:55:19,096 INFO data_prep: Data loaded successfully. Shape: (5, 6)
+2025-06-03 07:55:19,102 INFO data_prep: Starting data preprocessing. Initial shape: (5, 6)
+2025-06-03 07:55:19,102 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('O'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'Volume': dtype('int64')}
+2025-06-03 07:55:19,103 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 1, 'High': 1, 'Low': 0, 'Close': 0, 'Volume': 0}
+2025-06-03 07:55:19,103 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:55:19,104 INFO data_prep: Converted column Date to numeric: 0/5 values converted
+2025-06-03 07:55:19,104 INFO data_prep: Converted column Open to numeric: 4/4 values converted
+2025-06-03 07:55:19,104 INFO data_prep: Conversion summary: {'Date': '0/5 values converted', 'Open': '4/4 values converted'}
+2025-06-03 07:55:19,104 INFO data_prep: Rows with NaN values: 5 out of 5
+2025-06-03 07:55:19,105 WARNING data_prep: Would drop all rows due to NaN values - keeping data as is
+2025-06-03 07:55:19,105 INFO data_prep: Final preprocessing shape: (5, 6)
+2025-06-03 07:55:57,073 INFO data_prep: Loading data from <_io.StringIO object at 0x0000011286509360>
+2025-06-03 07:55:57,075 INFO data_prep: Data loaded successfully. Shape: (5, 6)
+2025-06-03 07:55:57,082 INFO data_prep: Starting data preprocessing. Initial shape: (5, 6)
+2025-06-03 07:55:57,082 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('float64'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'Volume': dtype('int64')}
+2025-06-03 07:55:57,082 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 0, 'High': 0, 'Low': 0, 'Close': 0, 'Volume': 0}
+2025-06-03 07:55:57,083 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:55:57,083 INFO data_prep: Skipping date-like column: Date
+2025-06-03 07:55:57,084 INFO data_prep: Dropped date-like columns: ['Date']
+2025-06-03 07:55:57,084 INFO data_prep: Rows with NaN values: 0 out of 5
+2025-06-03 07:55:57,084 INFO data_prep: Dropped 0 rows with NaN values
+2025-06-03 07:55:57,084 INFO data_prep: Final preprocessing shape: (5, 5)
+2025-06-03 07:55:57,091 INFO data_prep: Loading data from <_io.StringIO object at 0x0000011286509750>
+2025-06-03 07:55:57,092 INFO data_prep: Data loaded successfully. Shape: (5, 6)
+2025-06-03 07:55:57,098 INFO data_prep: Starting data preprocessing. Initial shape: (5, 6)
+2025-06-03 07:55:57,098 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('O'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'Volume': dtype('int64')}
+2025-06-03 07:55:57,098 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 1, 'High': 1, 'Low': 0, 'Close': 0, 'Volume': 0}
+2025-06-03 07:55:57,099 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:55:57,099 INFO data_prep: Skipping date-like column: Date
+2025-06-03 07:55:57,099 INFO data_prep: Converted column Open to numeric: 4/4 values converted
+2025-06-03 07:55:57,100 INFO data_prep: Dropped date-like columns: ['Date']
+2025-06-03 07:55:57,100 INFO data_prep: Conversion summary: {'Open': '4/4 values converted'}
+2025-06-03 07:55:57,100 INFO data_prep: Rows with NaN values: 1 out of 5
+2025-06-03 07:55:57,101 INFO data_prep: Dropped 1 rows with NaN values
+2025-06-03 07:55:57,101 INFO data_prep: Final preprocessing shape: (4, 5)
+2025-06-03 07:56:32,580 INFO data_prep: Loading data from sample_stock_data.csv
+2025-06-03 07:56:32,582 INFO data_prep: Data loaded successfully. Shape: (15, 6)
+2025-06-03 07:56:32,591 INFO data_prep: Starting data preprocessing. Initial shape: (15, 6)
+2025-06-03 07:56:32,591 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('float64'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'Volume': dtype('int64')}
+2025-06-03 07:56:32,591 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 0, 'High': 0, 'Low': 0, 'Close': 0, 'Volume': 0}
+2025-06-03 07:56:32,592 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:56:32,592 INFO data_prep: Skipping date-like column: Date
+2025-06-03 07:56:32,593 INFO data_prep: Dropped date-like columns: ['Date']
+2025-06-03 07:56:32,593 INFO data_prep: Rows with NaN values: 0 out of 15
+2025-06-03 07:56:32,593 INFO data_prep: Dropped 0 rows with NaN values
+2025-06-03 07:56:32,593 INFO data_prep: Final preprocessing shape: (15, 5)
+2025-06-03 07:57:30,358 INFO data_prep: Loading data from UploadedFile(file_id='0cd1def0-a4a9-4e40-995f-005496f96367', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "0cd1def0-a4a9-4e40-995f-005496f96367"
+upload_url: "/_stcore/upload_file/57f93894-7f4e-4847-b00c-213f4d063e65/0cd1def0-a4a9-4e40-995f-005496f96367"
+delete_url: "/_stcore/upload_file/57f93894-7f4e-4847-b00c-213f4d063e65/0cd1def0-a4a9-4e40-995f-005496f96367"
+)
+2025-06-03 07:57:30,367 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 07:57:30,381 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 07:57:30,382 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 07:57:30,382 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 07:57:30,384 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:57:30,387 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 07:57:30,389 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 07:57:30,390 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 07:57:30,391 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 07:57:30,392 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 07:57:30,394 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 07:57:30,394 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 07:57:30,394 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 07:57:30,394 WARNING data_prep: Would drop all rows due to NaN values - keeping data as is
+2025-06-03 07:57:30,394 INFO data_prep: Final preprocessing shape: (1511, 6)
+2025-06-03 07:59:21,477 INFO data_prep: Starting data preprocessing. Initial shape: (5, 7)
+2025-06-03 07:59:21,491 INFO data_prep: Initial data types: {'Date': dtype('O'), 'Open': dtype('O'), 'High': dtype('float64'), 'Low': dtype('float64'), 'Close': dtype('float64'), 'BadColumn': dtype('O'), 'Volume': dtype('int64')}
+2025-06-03 07:59:21,491 INFO data_prep: Initial missing values per column: {'Date': 0, 'Open': 0, 'High': 1, 'Low': 0, 'Close': 0, 'BadColumn': 5, 'Volume': 0}
+2025-06-03 07:59:21,492 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 07:59:21,492 INFO data_prep: Skipping date-like column: Date
+2025-06-03 07:59:21,492 INFO data_prep: Converted column Open to numeric: 3/5 values converted
+2025-06-03 07:59:21,492 INFO data_prep: Converted column BadColumn to numeric: 0/0 values converted
+2025-06-03 07:59:21,493 INFO data_prep: Dropped date-like columns: ['Date']
+2025-06-03 07:59:21,493 INFO data_prep: Conversion summary: {'Open': '3/5 values converted', 'BadColumn': '0/0 values converted'}
+2025-06-03 07:59:21,493 INFO data_prep: Rows with NaN values: 5 out of 5
+2025-06-03 07:59:21,494 INFO data_prep: NaN values by column: {'Open': 2, 'BadColumn': 5}
+2025-06-03 07:59:21,494 WARNING data_prep: Too many rows (5/5) have NaN values
+2025-06-03 07:59:21,494 INFO data_prep: Column BadColumn has 100.00% NaN values - will drop
+2025-06-03 07:59:21,494 INFO data_prep: Dropped columns with >80% NaN: ['BadColumn']
+2025-06-03 07:59:21,496 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 07:59:21,496 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 07:59:21,496 INFO data_prep: Final preprocessing shape: (3, 5)
+2025-06-03 08:00:24,396 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:00:24,412 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:00:24,422 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:00:24,422 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:00:24,422 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:00:24,428 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:00:24,428 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:00:24,428 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:00:24,428 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:00:24,428 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:00:24,428 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:00:24,428 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:00:24,428 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:00:24,441 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:00:24,442 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:00:24,442 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:00:28,386 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:00:28,390 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:00:28,396 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:00:28,396 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:00:28,397 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:00:28,400 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:00:28,401 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:00:28,403 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:00:28,404 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:00:28,405 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:00:28,406 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:00:28,408 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:00:28,409 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:00:28,409 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:00:28,409 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:00:28,410 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:00:28,410 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:00:28,411 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:00:28,413 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:00:28,414 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:00:28,414 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:08:35,520 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:08:35,529 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:08:35,533 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:08:35,533 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:08:35,533 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:08:35,537 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:08:35,539 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:08:35,541 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:08:35,541 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,543 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,545 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,547 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:08:35,547 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:08:35,547 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:08:35,548 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:08:35,548 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:08:35,548 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:08:35,549 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:08:35,550 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:08:35,550 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:08:35,550 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:08:35,789 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:08:35,793 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:08:35,801 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:08:35,801 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:08:35,801 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:08:35,805 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:08:35,807 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:08:35,808 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:08:35,810 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,811 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,812 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:08:35,812 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:08:35,812 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:08:35,812 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:08:35,812 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:08:35,812 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:08:35,812 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:08:35,812 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:08:35,816 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:08:35,816 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:08:35,816 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:09:23,128 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:09:23,128 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:09:23,142 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:09:23,143 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:09:23,144 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:09:23,148 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:09:23,150 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:09:23,152 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:09:23,153 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:09:23,154 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:09:23,156 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:09:23,158 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:09:23,158 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:09:23,158 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:09:23,159 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:09:23,159 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:09:23,159 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:09:23,160 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:09:23,162 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:09:23,162 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:09:23,163 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:09:29,366 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:09:29,366 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:09:29,366 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:09:29,366 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:09:29,366 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:09:29,382 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:09:29,382 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:09:29,382 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:09:29,382 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:09:29,382 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:09:29,382 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:09:29,382 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:09:29,382 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:09:29,382 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:09:29,382 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:09:29,382 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-03 08:09:29,620 INFO data_prep: Loading data from UploadedFile(file_id='669acf73-99b0-4c73-9582-74373a4e08cf', name='AAPL.csv', type='application/vnd.ms-excel', size=142455, _file_urls=file_id: "669acf73-99b0-4c73-9582-74373a4e08cf"
+upload_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-99b0-4c73-9582-74373a4e08cf"
+)
+2025-06-03 08:09:29,636 INFO data_prep: Data loaded successfully. Shape: (1511, 6)
+2025-06-03 08:09:29,636 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-03 08:09:29,636 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-03 08:09:29,636 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-03 08:09:29,636 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-03 08:09:29,652 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-03 08:09:29,653 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-03 08:09:29,654 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,655 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,657 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-03 08:09:29,659 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-03 08:09:29,659 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-03 08:09:29,659 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-03 08:09:29,659 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-03 08:09:29,659 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-03 08:09:29,659 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-03 08:09:29,659 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-03 08:09:29,659 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-03 08:09:29,659 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-03 08:09:29,659 INFO data_prep: Final preprocessing shape: (1509, 5)

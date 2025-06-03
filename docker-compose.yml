@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  ann-stock-app:
+    build: .
+    container_name: ann-stock-prediction
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount logs directory for persistence
+      - ./logs:/app/logs
+      # Optional: Mount data directory for easy file uploads
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add a development service with hot reload
+  ann-stock-app-dev:
+    build: .
+    container_name: ann-stock-prediction-dev
+    ports:
+      - "8502:8501"
+    volumes:
+      # Mount entire app directory for development
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+    command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true", "--server.fileWatcherType=poll", "--browser.gatherUsageStats=false"]
+    profiles:
+      - dev
