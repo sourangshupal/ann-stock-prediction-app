@@ -324,3 +324,22 @@ delete_url: "/_stcore/upload_file/2993b907-f5b7-453c-9414-d56f69d867cd/669acf73-
 2025-06-03 08:09:29,659 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
 2025-06-03 08:09:29,659 INFO data_prep: No NaN values remaining after preprocessing
 2025-06-03 08:09:29,659 INFO data_prep: Final preprocessing shape: (1509, 5)
+2025-06-04 07:58:50,410 INFO data_prep: Starting data preprocessing. Initial shape: (1511, 6)
+2025-06-04 07:58:50,411 INFO data_prep: Initial data types: {'Price': dtype('O'), 'Close': dtype('O'), 'High': dtype('O'), 'Low': dtype('O'), 'Open': dtype('O'), 'Volume': dtype('O')}
+2025-06-04 07:58:50,411 INFO data_prep: Initial missing values per column: {'Price': 0, 'Close': 1, 'High': 1, 'Low': 1, 'Open': 1, 'Volume': 1}
+2025-06-04 07:58:50,416 INFO data_prep: Missing values filled with forward and backward fill
+2025-06-04 07:58:50,422 INFO data_prep: Converted column Price to numeric: 0/1511 values converted
+2025-06-04 07:58:50,422 INFO data_prep: Converted column Close to numeric: 1509/1495 values converted
+2025-06-04 07:58:50,424 INFO data_prep: Converted column High to numeric: 1509/1510 values converted
+2025-06-04 07:58:50,426 INFO data_prep: Converted column Low to numeric: 1509/1510 values converted
+2025-06-04 07:58:50,426 INFO data_prep: Converted column Open to numeric: 1509/1510 values converted
+2025-06-04 07:58:50,428 INFO data_prep: Converted column Volume to numeric: 1509/1507 values converted
+2025-06-04 07:58:50,428 INFO data_prep: Conversion summary: {'Price': '0/1511 values converted', 'Close': '1509/1495 values converted', 'High': '1509/1510 values converted', 'Low': '1509/1510 values converted', 'Open': '1509/1510 values converted', 'Volume': '1509/1507 values converted'}
+2025-06-04 07:58:50,428 INFO data_prep: Rows with NaN values: 1511 out of 1511
+2025-06-04 07:58:50,430 INFO data_prep: NaN values by column: {'Price': 1511, 'Close': 2, 'High': 2, 'Low': 2, 'Open': 2, 'Volume': 2}
+2025-06-04 07:58:50,430 WARNING data_prep: Too many rows (1511/1511) have NaN values
+2025-06-04 07:58:50,430 INFO data_prep: Column Price has 100.00% NaN values - will drop
+2025-06-04 07:58:50,433 INFO data_prep: Dropped columns with >80% NaN: ['Price']
+2025-06-04 07:58:50,433 INFO data_prep: After column cleanup, dropped 2 rows with NaN values
+2025-06-04 07:58:50,433 INFO data_prep: No NaN values remaining after preprocessing
+2025-06-04 07:58:50,433 INFO data_prep: Final preprocessing shape: (1509, 5)
