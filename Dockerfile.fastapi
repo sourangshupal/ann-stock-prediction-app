@@ -1,0 +1,54 @@
+# FastAPI Dockerfile for ANN Stock Prediction API
+FROM python:3.9-slim
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    DEBIAN_FRONTEND=noninteractive \
+    TF_CPP_MIN_LOG_LEVEL=2
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies required for TensorFlow and scientific computing
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    software-properties-common \
+    libhdf5-dev \
+    libhdf5-serial-dev \
+    libatlas-base-dev \
+    libblas-dev \
+    liblapack-dev \
+    gfortran \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip and install wheel
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+
+# Copy requirements first for better Docker layer caching
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY . .
+
+# Create logs directory
+RUN mkdir -p logs
+
+# Create a non-root user for security
+RUN useradd --create-home --shell /bin/bash app && \
+    chown -R app:app /app
+USER app
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Health check for FastAPI
+HEALTHCHECK CMD curl --fail http://localhost:8000/health
+
+# Run FastAPI app
+CMD ["uvicorn", "fastapi_app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

@@ -1,9 +1,10 @@
 version: '3.8'
 
 services:
+  # Streamlit Web App
   ann-stock-app:
     build: .
-    container_name: ann-stock-prediction
+    container_name: ann-stock-prediction-streamlit
     ports:
       - "8501:8501"
     volumes:
@@ -22,6 +23,30 @@ services:
       retries: 3
       start_period: 40s
 
+  # FastAPI REST API
+  ann-stock-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    container_name: ann-stock-prediction-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount logs directory for persistence
+      - ./logs:/app/logs
+      # Optional: Mount data directory for easy file uploads
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
   # Optional: Add a development service with hot reload
   ann-stock-app-dev:
     build: .
@@ -35,5 +60,23 @@ services:
       - PYTHONUNBUFFERED=1
       - TF_CPP_MIN_LOG_LEVEL=2
     command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true", "--server.fileWatcherType=poll", "--browser.gatherUsageStats=false"]
+    profiles:
+      - dev
+
+  # FastAPI Development Service
+  ann-stock-api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    container_name: ann-stock-prediction-api-dev
+    ports:
+      - "8001:8000"
+    volumes:
+      # Mount entire app directory for development
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TF_CPP_MIN_LOG_LEVEL=2
+    command: ["uvicorn", "fastapi_app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
     profiles:
       - dev
