@@ -1,5 +1,5 @@
 # Use official Python runtime with TensorFlow optimizations
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
