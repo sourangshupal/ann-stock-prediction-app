@@ -42,4 +42,4 @@ resources:
 # # Optional: Service name
 # service: default
 
-entrypoint: gunicorn -b :$PORT fastapi_app:app
+entrypoint: uvicorn fastapi_app:app --host 0.0.0.0 --port 8080 --reload
