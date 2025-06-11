@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python Stock Prediction app to Azure Web App - annstockpredkerasapp
+name: Build and deploy Python app to Azure Web App - ann-app
 
 on:
   push:
@@ -76,6 +76,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'annstockpredkerasapp'
+          app-name: 'ann-app'
           slot-name: 'Production'
           
